@@ -1,4 +1,4 @@
-FROM ubuntu:latest
+FROM ubuntu:lunar-20231004
 
 RUN apt update -y \
     && apt install python3-pip -y \
